@@ -1,0 +1,83 @@
+* {
+  padding:0;
+  margin:0
+}
+body {
+  background:#edf4f4;
+  font-family:Verdana,Georgia;
+}
+#kopfleiste {
+  font-size: 34px;
+  text-align: left;
+  background-color: #3b5998;
+  color: white;
+  position: fixed;
+  display: block;
+  width: 10000px;
+  height: 45px;
+  font-family: Futura;
+  top: 0px;
+  z-index: 1;
+
+}
+
+
+h3 {
+  text-align: left;
+  font-size: 14px;
+  font-style: Georgia;
+ }
+
+ p {
+   margin-top: 10px;
+
+ }
+
+ul { margin-left: 12px;
+    font-size: 12px
+}
+
+
+#profilepic {
+  margin: 5px 5px 5px 5px;
+  border:5px;
+  height:195,5px;
+  width:200px
+}
+#button {
+  width: 200px;
+
+  text-align: center;
+}
+
+#speciallink {
+  color:white;
+  text-decoration: none;
+}
+
+#seitenleiste {
+               width: 210px;
+               height: auto;
+               background-color: #a5f0f7;
+               margin-top: 45px;
+               font-family: sans-serif;
+               font-size: 1em;
+               padding: 5px
+             }
+
+#hauptseite { position: absolute;
+              top:45px;
+              margin-left: 240px;
+              z-index: 0;
+
+}
+
+
+
+table, th, td, tr {
+    padding: 10px;
+    font-size: 12px
+}
+
+/*
+setzt alle einzüge auf 0 - für alle browser gleich ausgangslage */
